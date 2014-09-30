@@ -20,8 +20,8 @@ public class WeChatInterfaceTest extends TestCase {
 	private String access_token = "Y5MVOtGyXXOX98iRNXcDr1-42rvG379nLkJfBVGctQd0mWJIFMt5SjCGIxN5HXAY";
 
 	public void testGetAccessToken() {
-		String appId = "wx10c1e376142194a8";
-		String appSecret = "1a468df36342a19786c96d2e1669c55a";
+		String appId = "wxxxxxx";
+		String appSecret = "xxxxxxxxxx";
 		Map<String, String> result = WeChatInterfaceUtil.getAccessToken(appId,
 				appSecret);
 		// {"access_token":"JtJtHatZytbRVaPMscaAKkgVCeiChHf4lPt-ocvm2lRTFJ-amLSdYPnlULpms5hf","expires_in":7200}
